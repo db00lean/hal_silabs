@@ -12,7 +12,15 @@ blobs:
     url: https://github.com/SiliconLabs/wiseconnect/raw/v4.0.0-content-for-docs/connectivity_firmware/standard/SiWG917-B.2.15.5.0.0.12.rps
     description: "Network Co-Processor firmware for siwx91x"
     doc-url: https://github.com/SiliconLabs/wiseconnect
-
+  # libsl_openthread_cm33_gcc
+  - path: simplicity_sdk/protocol/openthread/platform-abstraction/efr32/libsl_openthread_cm33_gcc.a
+    sha256: 1cf533ac53093a0a4f97a92f2845c703913ab6f1153a42bc4ff2b156db442fc0
+    type: lib
+    version: "2025.6.2"
+    license-path: zephyr/blobs/license/Zlib.txt
+    url: https://artifacts.silabs.net/artifactory/gsdk/objects/1c/f5/1cf533ac53093a0a4f97a92f2845c703913ab6f1153a42bc4ff2b156db442fc0
+    description: "OpenThread RAIL library for EFR32"
+    doc-url: https://github.com/SiliconLabs/simplicity_sdk
   # libbluetooth_controller
   - path: simplicity_sdk/protocol/bluetooth/bgstack/ll/build/gcc/xg21/release/liblinklayer.a
     sha256: f11a30977afbd85df669efd9fdc8d84e569197b29daa9e7d45360220afac5d4a
